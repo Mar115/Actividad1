@@ -13,15 +13,15 @@
         \vspace*{1cm}
             
         \Huge
-        \textbf{Título del trabajo}
+        \textbf{Clase de repositorios}
             
         \vspace{0.5cm}
         \LARGE
-        Subtítulo
+        Informática II
             
         \vspace{1.5cm}
             
-        \textbf{Nombres y Apellidos del autor}
+        \textbf{Marcela Flórez Orellano }
             
         \vfill
             
@@ -31,78 +31,52 @@
         Despartamento de Ingeniería Electrónica y Telecomunicaciones\\
         Universidad de Antioquia\\
         Medellín\\
-        Marzo de 2021
+        9 de Marzo de 2021
             
     \end{center}
 \end{titlepage}
 
 \tableofcontents
 \newpage
-\section{Sección introductoria}\label{intro}
-Esta es la primera sección, podemos agregar algunos elementos adicionales y todo será escrito correctamente. Más aún, si una palabra es demasiado larga y tiene que ser truncada, babel tratará de truncarla correctamente dependiendo del idioma.
+\section{Solución al desafío}\label{intro}
+\begin{enumerate}
+\item Con su mano derecha, deslice suavemente la hoja sobre la superficie plana de la mesa hacia la derecha, a una distancia aproximada de las tarjetas de tres dedos de su mano.
+\begin{itemize}
+\item Los dedos deben estar en posición vertical sobre la mesa.
+\end{itemize}
+\item Levante las dos tarjetas por uno de sus lados cortos, con su dedo pulgar y dedo índice de la mano derecha en forma de pinza, teniendo en cuenta que las caras de las tarjetas no queden de frente a usted, de manera que su dedo pulgar quede en la cara de la tarjeta izquierda y el dedo índice quede en la cara de la tarjeta derecha.
+\begin{itemize}
+\item Haciendo referencia a la cara de las tarjetas como la parte frontal o la parte más ancha.
+\end{itemize}
+\item Ubique las tarjetas juntas y sin soltarlas sobre el centro de la superficie de la hoja, haciendo que los lados cortos y libres de las tarjetas queden en contacto con la hoja.
+\item Conservando la misma posición del paso anterior, levante suavemente de la superficie de la hoja la tarjeta del lado izquierdo con el dedo pulgar, sin dejar de sostener con su dedo índice la tarjeta derecha.  
+\item Separe poco a poco con su dedo pulgar la tarjeta del lado izquierdo hacia la izquierda, y al mismo tiempo, incline levemente con su índice la tarjeta derecha hacia la izquierda. Hasta formar con los lados largos de las tarjetas y la hoja la figura de un triángulo que mire hacia usted.
+\item Realizar el paso número cinco hasta que las tarjetas se encuentren en equilibrio, para esto se puede ayudar de su dedo medio, sin dejar de mantener la posición de pinza con los dedos índice y pulgar.
+\item Logrado el paso anterior, aleje cuidadosamente la mano derecha de las tarjetas sin que se caigan las mismas.
+\end {enumerate}
 
-\section{Sección de contenido} \label{contenido}
-Esta sección es para agregar toda la información correspondiente con código, citas, etc.
-\subsection{Citación}
-Vamos a citar por ejemplo un artículo de \textbf{Albert Einstein} \cite{einstein}.
-También es posible citar libros \cite{dirac} o documentos en línea \cite{knuthwebsite}.\\\\
-Revisar en la última sección el formato de las referencias en IEEE.
-
-\subsection{Incluir código en el documento}
-%
-A continuación, se presenta el código \ref{codigo_ejemplo}, que nos permite incluir en el informe partes de programa que requieran una explicación adicional.
-\begin{lstlisting}[language=C++, label=codigo_ejemplo]
-// Programa desarrollado, compilado y ejecutado en https://www.onlinegdb.com
-#include <iostream>
-
-/*
- * Esto es un comentario de varias lineas
- */
-
-// Comentario de una sola linea
-
-#define N 10
-
-using namespace std;
-
-int main()
-{
-    
-    for( int i = 0 ; i < N ; i++ ){
-        
-        if( !(i % 2) )
-            cout << " El valor de i es -> " << i << endl;
-    }
-    
-    return 0;
-}
-
-//Resultado programa
-
-/*
-El valor de i es -> 0
-El valor de i es -> 2
-El valor de i es -> 4
-El valor de i es -> 6
-El valor de i es -> 8
-*/
-\end{lstlisting}
-En la sección \ref{imagenes}, se presentará como añadir ilustraciones al texto.
+\newpage
 
 \section{Inclusión de imágenes} \label{imagenes}
+Se presenta el contenido de la carpeta de imágenes.
+\begin{itemize}
+\item La figura 1 es el estado inicial, en este se encuentran dos tarjetas ubicadas una sobre la otra, alineadas en la misma orientación, debajo de una hoja de papel. 
+\item La figura 2 es el estado final, en este las tarjetas se encuentran en el centro de la hoja de papel en forma de pirámide.
 
-En la Figura (\ref{fig:cpplogo}), se presenta el logo de C++ contenido en la carpeta images.
+\end{itemize}
 
 \begin{figure}[h]
-\includegraphics[width=4cm]{cpplogo.png}
+\includegraphics[width=4cm]{posición A.jpeg}
 \centering
-\caption{Logo de C++}
-\label{fig:cpplogo}
+\caption{Estado inicial}
+\label{fig:posición A}
+
+\vspace*{1cm}
+
+\includegraphics[width=4cm]{posición B.jpeg}
+\centering
+\caption{Estado final}
+\label{fig:posición B}
+
 \end{figure}
-
-Las secciones (\ref{intro}), (\ref{contenido}) y (\ref{imagenes}) dependen del estilo del documento.
-
-\bibliographystyle{IEEEtran}
-\bibliography{references}
-
 \end{document}
